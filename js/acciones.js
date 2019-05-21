@@ -22,8 +22,8 @@ $(document).ready(function(e) {
 	 
 	 function onSuccess(position){
 		 
-		 alert ('Latitude:'   +position.coords.latitude   +'\n'+
-		 'Longitude:'     +position.coords.longitude   +'\n');
+		 alert ('Latitud:'   +position.coords.latitude   +'\n'+
+		 'Longitud:'     +position.coords.longitude   +'\n');
 	 };
 	 
 	 function onError (error) {
